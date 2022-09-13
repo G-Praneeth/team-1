@@ -1,7 +1,7 @@
 const app = require("express")();
 const PORT = process.env.PORT || 3000;
 app.get("", (req, res) => {
-    res.send("Hello world");
+    res.send("https://usharama.edu.in/home");
 });
 
 app.listen(PORT, () => {
